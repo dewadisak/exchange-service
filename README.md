@@ -37,6 +37,7 @@ Create order
     "amount": 1,
     "status":"pending"
 }
+```
 
 
 Get all users
