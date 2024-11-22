@@ -2,6 +2,7 @@ import express from 'express';
 import userRoutes from './routes/user.routes.js';
 import orderRoutes from './routes/order.routes.js';
 import transactionRoutes from './routes/transaction.routes.js';
+import getAllWallets from './routes/wallet.routes.js';
 import cors from 'cors';
 import sequelize from './config/db.js';
 import './models/associations.js';
@@ -12,6 +13,7 @@ app.use(cors());
 
 app.use('/users', userRoutes);
 app.use('/order', orderRoutes);
+app.use('/wallets', getAllWallets);
 app.use('/transaction', transactionRoutes);
 
 app.listen(3000, async () => {

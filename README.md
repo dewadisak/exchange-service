@@ -26,4 +26,35 @@ $ node src/seeders/user.seeder.js
 ```
 ## Use path for test on postman
 
+Create order 
+`POST: http://localhost:3000/order`
+```json
+{
+    "userId": 1 ,
+    "type": "sell", //choose type buy or sell
+    "currencyType": "ETH",
+    "currencyRecieve":"USD",
+    "amount": 1,
+    "status":"pending"
+}
+
+
+Get all users
+
+`GET: http://localhost:3000/users` 
+
+Get all wallets
+
+`GET: http://localhost:3000/wallets`
+
+Get all order
+
+`GET: http://localhost:3000/order`
+
+Get all transaction
+
+`GET: http://localhost:3000/transaction`
+
+
+
 
