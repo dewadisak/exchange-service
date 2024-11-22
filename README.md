@@ -20,7 +20,10 @@ $ docker compose up -d
 $ npm run start
 ```
 
-## Seed user ,currncy, wallet for mock data
+## Seed user, currency, wallet for mock data
 ```bash
 $ node src/seeders/user.seeder.js    
 ```
+## Use path for test on postman
+
+
