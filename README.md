@@ -39,6 +39,29 @@ Create order
 }
 ```
 
+BUY order 
+`POST: http://localhost:3000/transaction`
+```json
+{
+    "orderId":1,
+    "userId":2 ,
+    "type": "sell",
+    "currencyType": "USD"
+}
+```
+
+BUY order 
+`POST: http://localhost:3000/transaction/tranfer`
+```json
+{
+    "userId":1 ,
+    "walletId":9,
+    "amount":1,
+    "type": "tranfer",
+    "currencyType": "BTC"
+}
+```
+
 
 Get all users
 
