@@ -31,8 +31,8 @@ Create order
 ```json
 {
     "userId": 1 ,
-    "type": "sell", //choose type buy or sell
-    "currencyType": "ETH", //choose type currency
+    "type": "sell", //choose type buy or sell 
+    "currencyType": "ETH", //choose type buy or sell BTC, ETH, XRP, DOGE
     "currencyRecieve":"USD", //choose type currency USD or THB
     "amount": 1,
     "status":"pending"
@@ -58,7 +58,7 @@ Tranfer token
     "walletId":9, //choose wallet to tranfer
     "amount":1,
     "type": "tranfer", 
-    "currencyType": "BTC"  //choose type currency
+    "currencyType": "BTC"  //choose type buy or sell BTC, ETH, XRP, DOGE
 }
 ```
 
