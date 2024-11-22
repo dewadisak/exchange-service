@@ -32,8 +32,8 @@ Create order
 {
     "userId": 1 ,
     "type": "sell", //choose type buy or sell
-    "currencyType": "ETH",
-    "currencyRecieve":"USD",
+    "currencyType": "ETH", //choose type currency
+    "currencyRecieve":"USD", //choose type buy or sell
     "amount": 1,
     "status":"pending"
 }
@@ -43,22 +43,22 @@ BUY order
 `POST: http://localhost:3000/transaction`
 ```json
 {
-    "orderId":1,
+    "orderId":1, //choose orderId for buy order
     "userId":2 ,
-    "type": "sell",
-    "currencyType": "USD"
+    "type": "buy", //choose userId for buy or sell order
+    "currencyType": "USD" //choose type currency
 }
 ```
 
-BUY order 
+Tranfer token 
 `POST: http://localhost:3000/transaction/tranfer`
 ```json
 {
     "userId":1 ,
-    "walletId":9,
+    "walletId":9, //choose wallet to tranfer
     "amount":1,
-    "type": "tranfer",
-    "currencyType": "BTC"
+    "type": "tranfer", 
+    "currencyType": "BTC"  //choose type currency
 }
 ```
 
