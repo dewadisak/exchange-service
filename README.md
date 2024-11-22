@@ -33,7 +33,7 @@ Create order
     "userId": 1 ,
     "type": "sell", //choose type buy or sell
     "currencyType": "ETH", //choose type currency
-    "currencyRecieve":"USD", //choose type buy or sell
+    "currencyRecieve":"USD", //choose type currency USD or THB
     "amount": 1,
     "status":"pending"
 }
@@ -46,7 +46,7 @@ BUY order
     "orderId":1, //choose orderId for buy order
     "userId":2 ,
     "type": "buy", //choose userId for buy or sell order
-    "currencyType": "USD" //choose type currency
+    "currencyType": "USD" //choose type currency USD or THB
 }
 ```
 
